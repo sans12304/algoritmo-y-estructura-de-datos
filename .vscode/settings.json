@@ -6,7 +6,8 @@
         "Actividad 1.C": "cpp",
         "Actividad 2.C": "cpp",
         "Actividad 4.C": "cpp",
-        "Actividad 7.C": "cpp"
+        "Actividad 7.C": "cpp",
+        "Actividad 8.C": "cpp"
     },
     "cmake.sourceDirectory": "/workspaces/algoritmo-y-estrucutra-de-datos"
 }
