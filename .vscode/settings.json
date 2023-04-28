@@ -1,8 +1,12 @@
 {
     "files.associations": {
+        "*.psc": "pseudocode",
         "Actividad 6.C": "cpp",
         "Actividad 5.C": "cpp",
-        "Actividad 1.C": "cpp"
+        "Actividad 1.C": "cpp",
+        "Actividad 2.C": "cpp",
+        "Actividad 4.C": "cpp",
+        "Actividad 7.C": "cpp"
     },
     "cmake.sourceDirectory": "/workspaces/algoritmo-y-estrucutra-de-datos"
 }
