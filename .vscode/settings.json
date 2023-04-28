@@ -1,6 +1,8 @@
 {
     "files.associations": {
         "Actividad 6.C": "cpp",
-        "Actividad 5.C": "cpp"
-    }
+        "Actividad 5.C": "cpp",
+        "Actividad 1.C": "cpp"
+    },
+    "cmake.sourceDirectory": "/workspaces/algoritmo-y-estrucutra-de-datos"
 }

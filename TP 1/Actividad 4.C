@@ -1,8 +1,8 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-int numeroA
-int numeroB
+int numeroA;
+int numeroB;
 
 main(){
     //Ingreso de Datos

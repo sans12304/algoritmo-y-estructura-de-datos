@@ -1,9 +1,9 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-int numero_uno
-int numero_dos
-int numero_tres
+int numero_uno;
+int numero_dos;
+int numero_tres;
 
 main(){
     //Ingreso de datos
