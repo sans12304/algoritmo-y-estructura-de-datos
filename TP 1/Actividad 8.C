@@ -4,7 +4,7 @@
 int monto_en_pesos;
 int precio_dolar = 15.40;
 
-int main(int argc, char const *argv[])
+main()
 {
     printf("Ingrese el monto en pesos: \n");
     scanf("%i", &monto_en_pesos);
