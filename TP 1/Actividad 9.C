@@ -4,7 +4,7 @@
 float radio;
 float altura;
 
-main()
+int main()
 {
     printf("Introdusca el radio del cilindro: \n");
     scanf("%f", &radio);
