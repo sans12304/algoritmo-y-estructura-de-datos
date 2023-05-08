@@ -10,7 +10,9 @@
         "Actividad 8.C": "cpp",
         "Actividad 10.C": "cpp",
         "Actividad 9.C": "cpp",
-        "Actividad 11.C": "cpp"
+        "Actividad 11.C": "cpp",
+        "Cajero.C": "cpp"
     },
-    "cmake.sourceDirectory": "/workspaces/algoritmo-y-estrucutra-de-datos"
+    "cmake.sourceDirectory": "/workspaces/algoritmo-y-estrucutra-de-datos",
+    "C_Cpp.errorSquiggles": "disabled"
 }
