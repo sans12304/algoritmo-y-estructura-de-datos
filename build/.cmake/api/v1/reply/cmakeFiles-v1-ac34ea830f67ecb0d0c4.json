@@ -266,7 +266,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/home/codespace/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/Compiler/GNU-FindBinUtils.cmake"
+			"path" : "/home/codespace/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/Compiler/Clang-FindBinUtils.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -510,7 +510,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/home/codespace/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/Compiler/GNU-FindBinUtils.cmake"
+			"path" : "/home/codespace/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/Compiler/Clang-FindBinUtils.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -559,7 +559,17 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/home/codespace/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/Compiler/GNU-C.cmake"
+			"path" : "/home/codespace/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/Compiler/Clang-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/codespace/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/Compiler/Clang.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/codespace/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -570,6 +580,11 @@
 			"isCMake" : true,
 			"isExternal" : true,
 			"path" : "/home/codespace/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/codespace/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/Platform/Linux-Clang-C.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -658,12 +673,17 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/home/codespace/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/Compiler/GNU-CXX.cmake"
+			"path" : "/home/codespace/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/Compiler/Clang-CXX.cmake"
 		},
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/home/codespace/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/Compiler/GNU.cmake"
+			"path" : "/home/codespace/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/Compiler/Clang.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/codespace/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/Platform/Linux-Clang-CXX.cmake"
 		},
 		{
 			"isCMake" : true,

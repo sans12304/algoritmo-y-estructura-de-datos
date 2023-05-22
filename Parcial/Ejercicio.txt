@@ -1,0 +1,19 @@
+Una empresa se dedica a hacer el calculo de los niveles d audiencia de tres canales de television abierta. A dicha empresa llegan diariamente 
+los datos de las microcomputadoras instaladas en los hogares, que son la cantidad de personas que estan mirando un programa determinado en un canal 
+y horario determinado.
+Se dispone de los datos de las microcomputadors instaladas de un determinado periodo, que es la siguiente:
+	1) Codigo de canal (Valor entero: 9, 11, 13)
+	2) Horario (Valor caracter: M = Mañana ; T = Tarde; P = Prime Time)
+	3) Cantidad de Televidentes (Valor entero positivo)
+Los datos de las microcomputadoras instaladas llegan hasta que el operador lo determine.
+El rating o nivel de audiencia se mide en base a la cantidad de televidentes. Un punto de rating equivale a 10 televidentes.
+se pide informar por cada dato que llegue de microcomputadoras instaladas:
+	1) El codigo de canal
+	2) Puntos de rating
+Para calcular los puntos de Rating hacer una funcion que tenga como parametro cantidad de televidentes que registro la microcomputadora, y devuelva 
+el programa principal los puntos de rating equivalentes.
+Al finalizar informar:
+	a) Los puntos de rating de cada canal
+	b) Cantidad total de televidentes de Prime Time
+Hacer una funcion que tenga como parametros los valores a informar de los puntos A y B, y que los muestre por pantalla.
+(Se pueden usar variables Globales y codificacion en lenguaje C) 

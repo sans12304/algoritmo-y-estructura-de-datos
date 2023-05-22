@@ -1,5 +1,6 @@
 {
     "files.associations": {
+        "*.C": "c",
         "*.psc": "pseudocode",
         "Actividad 6.C": "cpp",
         "Actividad 5.C": "cpp",
@@ -11,7 +12,8 @@
         "Actividad 10.C": "cpp",
         "Actividad 9.C": "cpp",
         "Actividad 11.C": "cpp",
-        "Cajero.C": "cpp"
+        "Cajero.C": "cpp",
+        "random": "cpp"
     },
     "cmake.sourceDirectory": "/workspaces/algoritmo-y-estrucutra-de-datos",
     "C_Cpp.errorSquiggles": "disabled"
