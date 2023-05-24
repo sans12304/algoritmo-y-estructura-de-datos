@@ -1,2 +1,0 @@
-/workspaces/algoritmo-y-estrucutra-de-datos/build/CMakeFiles/edit_cache.dir
-/workspaces/algoritmo-y-estrucutra-de-datos/build/CMakeFiles/rebuild_cache.dir
