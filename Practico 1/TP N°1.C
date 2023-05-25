@@ -1,26 +1,58 @@
-'''
-Consignas:
-- El problema tiene que representar una situación de la vida real, que pueda resolverse computacionalmente.
-- Ingreso de múltiples datos por parte del usuario, con un menú elegante (como mínimo uno de los datos a ingresar tiene que ser una cadena de texto). 
-- Salida formateada y elegante (tabulaciones, decimales, \n, etc.).
-- Uso de contadores y acumuladores.
-- Ciclos de iteración con estructuras de selección adentro. Debe tener al menos una estructura de selección múltiple (switch). 
-- Ciclos de iteración con ciclos de iteración adentro.
-- Deberán usar al menos 2(dos) funciones de manejo de cadenas de caracteres.
-
-Ejercicio propuesto:
-- Un programa que permita controlar las ventas y stock de un local de venta de calzado.
-    - El programa debe controlar el stock de los productos, es decir, debe poder agregar, restar y modificar la cantidad de productos, si lo desea el usuario o si es por una venta
-    - El programa tambien dira y calculara el precio de los productos, y tambien calculara el precio total de la compra tanto en efectivo, como en cuotas
-    - El programa debe poder mostrar el stock de los productos, y tambien mostrar el precio de los productos
-'''
 
 #include <stdio.h>
-#include <stdlib.h>
 #include <string.h>
-#include <math.h>
-
-main(){
-    //Variables
-    
+// Función para calcular el precio total de una lista de productos
+float calcularPrecioTotal(float precios[], int cantidad) {
+    float total = 0;
+    for (int i = 0; i < cantidad; i++) {
+        total += precios[i];
+    }
+    return total;
+}
+// Función para mostrar información detallada de un producto
+void mostrarInfoProducto(char nombre[], float precio) {
+    printf("Producto: %s\n", nombre);
+    printf("Precio: %.2f\n", precio);
+}
+int main(){
+    int opcion;
+    int cantidad_productos = 0;
+    char nombre_producto[50];
+    float precios[50];
+    while (1) {
+        printf("=-=-=-=-=-=-= Supermercado =-=-=-=-=-=-=\n");
+        printf("1. Agregar producto\n");
+        printf("2. Mostrar información de todos los productos\n");
+        printf("3. Calcular precio total\n");
+        printf("4. Salir\n");
+        printf("Ingrese una opción: ");
+        scanf("%d", &opcion);
+        switch (opcion) {
+            case 1:
+                printf("Ingrese el nombre del producto: ");
+                scanf(" %[^\n]s", nombre_producto);
+                printf("Ingrese el precio del producto: ");
+                scanf("%f", &precios[cantidad_productos]);
+                cantidad_productos++;
+                printf("Producto agregado con éxito.\n\n");
+                break;
+            case 2:
+                printf("=-=-=-=-=-=-= Información de los productos =-=-=-=-=-=-=\n");
+                for (int i = 0; i < cantidad_productos;){
+                    mostrarInfoProducto(nombre_producto, precios[i]);
+                    i++;
+                }
+                printf("\n");
+                break;
+            case 3:
+                printf("El precio total de los productos es: %.2f\n\n", calcularPrecioTotal(precios, cantidad_productos));
+                break;
+            case 4:
+                printf("Gracias por utilizar nuestra tienda. ¡Hasta luego!\n");
+                return 0;
+            default:
+                printf("Opción inválida. Por favor, ingrese un número válido.\n\n");
+        }
+    }
+    return 0;
 }
