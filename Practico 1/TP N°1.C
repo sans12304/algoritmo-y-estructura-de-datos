@@ -1,7 +1,6 @@
 
 #include <stdio.h>
 #include <string.h>
-// Función para calcular el precio total de una lista de productos
 float calcularPrecioTotal(float precios[], int cantidad) {
     float total = 0;
     for (int i = 0; i < cantidad; i++) {
@@ -9,7 +8,6 @@ float calcularPrecioTotal(float precios[], int cantidad) {
     }
     return total;
 }
-// Función para mostrar información detallada de un producto
 void mostrarInfoProducto(char nombre[], float precio) {
     printf("Producto: %s\n", nombre);
     printf("Precio: %.2f\n", precio);
