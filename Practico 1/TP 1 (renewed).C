@@ -1,3 +1,6 @@
+// Alumnos:
+// Farfaglia Juan Pablo, Vieta Gonzalo, Prietos Tomas
+
 #include <stdio.h>
 #include <string.h>
 
