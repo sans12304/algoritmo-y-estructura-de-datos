@@ -1,5 +1,6 @@
 // Alumnos:
 // Farfaglia Juan Pablo, Vieta Gonzalo, Prietos Tomas
+// Registro de gastos personales.
 
 #include <stdio.h>
 #include <string.h>
