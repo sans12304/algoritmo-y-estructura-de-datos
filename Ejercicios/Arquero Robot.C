@@ -3,8 +3,7 @@
 
 int Cordenada_X, Cordenada_Y, opcion = 0;
 
-
-main(){
+int main(){
     while (opcion >= 0)
     {
         printf("--- MENU --- \n");
@@ -15,14 +14,20 @@ main(){
             case 1:
                 printf("Ingrese los siguientes datos: \nCordenadas X: ");
                 scanf("%i", &Cordenada_X);
-             	printf("\nCordenadas Y: \n");
+                 printf("\nCordenadas Y: \n");
                 scanf("%i", &Cordenada_Y);
+                break;
             case 3:
                 printf("Hasta luego 👋");
-            return 0;
-    
-    default:
-        printf("Seleccione una opcion valida:");
+                return 0;
+            default:
+                printf("Seleccione una opcion valida:\n");
+                break;
+        }
     }
-    }
+    return 0;
 }
+
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
